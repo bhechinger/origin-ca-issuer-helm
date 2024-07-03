@@ -20,6 +20,25 @@ entries:
     urls:
     - https://github.com/bhechinger/origin-ca-issuer-helm/releases/download/origin-ca-issuer-0.5.4/origin-ca-issuer-0.5.4.tgz
     version: 0.5.4
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2024-07-03T15:26:44.678974654Z"
+    description: A Helm chart for origin-ca-issuer
+    digest: 977c71cb03e1f239e0b012b2c3e91e593128ac234088d53c6299422c5df5058c
+    home: https://github.com/bhechinger/origin-ca-issuer-helm
+    keywords:
+    - cert-manager
+    - cloudflare
+    - tls
+    maintainers:
+    - name: bhechinger
+    name: origin-ca-issuer
+    sources:
+    - https://github.com/bhechinger/origin-ca-issuer-helm
+    type: application
+    urls:
+    - https://github.com/bhechinger/origin-ca-issuer-helm/releases/download/origin-ca-issuer-0.1.0/origin-ca-issuer-0.1.0.tgz
+    version: 0.1.0
   origin-ca-issuer-crds:
   - apiVersion: v2
     appVersion: 0.8.0
@@ -59,4 +78,4 @@ entries:
     urls:
     - https://github.com/bhechinger/origin-ca-issuer-helm/releases/download/origin-ca-issuer-crds-0.1.0/origin-ca-issuer-crds-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-03T12:12:12.247595457Z"
+generated: "2024-07-03T15:26:44.678989751Z"
