@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  origin-ca-issuer:
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2024-07-03T10:09:41.434072738Z"
+    description: A Helm chart for origin-ca-issuer
+    digest: 2ab1a1c6d42b8091d1ff3731c793afed543d2537fea261305ea2d43f88babbcb
+    home: https://github.com/cloudflare/origin-ca-issuer
+    keywords:
+    - cert-manager
+    - cloudflare
+    - tls
+    maintainers:
+    - name: terinjokes
+    name: origin-ca-issuer
+    sources:
+    - https://github.com/cloudflare/origin-ca-issuer
+    type: application
+    urls:
+    - https://github.com/bhechinger/origin-ca-issuer-helm/releases/download/origin-ca-issuer-0.5.4/origin-ca-issuer-0.5.4.tgz
+    version: 0.5.4
+  origin-ca-issuer-crds:
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2024-07-03T10:09:41.546649551Z"
+    description: A Helm chart for origin-ca-issuer to deploy crds
+    digest: 1ff1996e412a4afc4ed515a3c34e088e25791507da669514c225c5c23d1dc39a
+    home: https://github.com/bhechinger/origin-ca-issuer-helm
+    keywords:
+    - cert-manager
+    - cloudflare
+    - tls
+    maintainers:
+    - name: bhechinger
+    name: origin-ca-issuer-crds
+    sources:
+    - https://github.com/bhechinger/origin-ca-issuer-helm
+    type: application
+    urls:
+    - https://github.com/bhechinger/origin-ca-issuer-helm/releases/download/origin-ca-issuer-crds-0.1.0/origin-ca-issuer-crds-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-03T10:09:41.546659269Z"
