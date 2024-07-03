@@ -1,0 +1,7 @@
+crds:
+  clusteroriginissuers:
+    install: true
+    keep: true
+  originissuers:
+    install: true
+    keep: true
