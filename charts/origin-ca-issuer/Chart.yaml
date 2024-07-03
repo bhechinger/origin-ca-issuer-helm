@@ -1,15 +1,15 @@
 apiVersion: v2
 type: application
 name: origin-ca-issuer
-version: 0.5.4
+version: 0.1.0
 appVersion: 0.8.0
 description: A Helm chart for origin-ca-issuer
-home: https://github.com/cloudflare/origin-ca-issuer
+home: https://github.com/bhechinger/origin-ca-issuer-helm
 maintainers:
-  - name: terinjokes
+  - name: bhechinger
 keywords:
   - cert-manager
   - cloudflare
   - tls
 sources:
-  - https://github.com/cloudflare/origin-ca-issuer
+  - https://github.com/bhechinger/origin-ca-issuer-helm
