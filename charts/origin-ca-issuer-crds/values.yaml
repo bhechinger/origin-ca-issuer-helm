@@ -5,3 +5,6 @@ crds:
   originissuers:
     install: true
     keep: true
+
+tolerations:
+  - operator: Exists

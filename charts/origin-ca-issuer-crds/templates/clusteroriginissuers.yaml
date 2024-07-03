@@ -9,6 +9,10 @@ metadata:
     controller-gen.kubebuilder.io/version: v0.13.0
   name: clusteroriginissuers.cert-manager.k8s.cloudflare.com
 spec:
+  {{- with .Values.tolerations }}
+  tolerations:
+    {{- toYaml . | trim | nindent 8 }}
+  {{- end }}
   group: cert-manager.k8s.cloudflare.com
   names:
     kind: ClusterOriginIssuer

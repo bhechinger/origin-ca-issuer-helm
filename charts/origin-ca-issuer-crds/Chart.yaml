@@ -1,7 +1,7 @@
 apiVersion: v2
 type: application
 name: origin-ca-issuer-crds
-version: 0.1.0
+version: 0.1.1
 appVersion: 0.8.0
 description: A Helm chart for origin-ca-issuer to deploy crds
 home: https://github.com/bhechinger/origin-ca-issuer-helm
