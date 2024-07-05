@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  gateway-api-crds:
+  - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2024-07-05T23:46:16.034976392Z"
+    description: A Helm chart for Kubernetes
+    digest: 41f946b02ecc54c637af795e23358849bd3c054e3ae1ee4c09db9a39334c071e
+    name: gateway-api-crds
+    type: application
+    urls:
+    - https://github.com/bhechinger/origin-ca-issuer-helm/releases/download/gateway-api-crds-1.1.0/gateway-api-crds-1.1.0.tgz
+    version: 1.1.0
   origin-ca-issuer:
   - apiVersion: v2
     appVersion: 0.8.0
@@ -78,4 +89,4 @@ entries:
     urls:
     - https://github.com/bhechinger/origin-ca-issuer-helm/releases/download/origin-ca-issuer-crds-0.1.0/origin-ca-issuer-crds-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-03T15:26:44.678989751Z"
+generated: "2024-07-05T23:46:16.034988204Z"
