@@ -2,8 +2,8 @@
 
 VERSION=v1.0.0
 declare -r -A CRDS=(
-  ["standard"]="gatewayclasses gateways httproutes referencegrants grpcroutes"
-  ["experimental"]="tlsroutes"
+  ["standard"]="gatewayclasses gateways httproutes referencegrants"
+  ["experimental"]="grpcroutes tlsroutes"
 )
 
 for TYPE in standard experimental; do
